@@ -21,12 +21,17 @@ Original code: https://github.com/magenta/midi-ddsp
 Language: Jupyter notebook in Python or Matlab etc (include version, etc)
 
 # Installation
-
-Instructions for installing
+Can be installed with:
+pip install midi-ddsp
+midi_ddsp_download_model_weights
 
 # Executing / performing basic analysis
-
-Provide information on how to execute the main code, how to obtain results, etc. Provide the name of the main scripts.
+you can execute MIDI synthesis with the following command:
+midi_ddsp_synthesize --midi_path <path-to-midi>
+You can try on a example MIDI from the repository:
+midi_ddsp_synthesize --midi_path ./midi_example/ode_to_joy.mid
+You can also try a colab notebook demo available at: 
+https://colab.research.google.com/github/magenta/midi-ddsp/blob/main/midi_ddsp/colab/MIDI_DDSP_Demo.ipynb
 
 # Credits
 
